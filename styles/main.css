@@ -15,7 +15,25 @@ hr{
   color: #32495b;
 }
 
-.container {
+.w-50 {
+  width: 50%;
+}
+
+.btn{
+  padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  line-height: 30px;
+  color: #fe775a;
+}
+
+.orange_btn{
+  background: #fe775a;
+  color: #fff;
+}
+
+#container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -33,7 +51,7 @@ hr{
 
 .navbar_down{
   background: #ffffff;
-  padding: 40px;
+  padding: 30px;
 }
 
 .main-header{
@@ -44,4 +62,20 @@ hr{
 .block{
   background: #afebe4;
   padding: 30px;
+}
+
+.btn_nav_right, .span_nav_left,
+.header_logo, .header_nav_down {
+  float:left;
+}
+
+
+.ul_btn_nav, .ul_navbar{
+  list-style: none;
+  text-align: right;
+}
+
+.ul_btn_nav li, .ul_navbar li{
+  display: inline-block;
+  padding: 0 10px;
 }
