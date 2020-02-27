@@ -19,8 +19,21 @@ hr{
   width: 50%;
 }
 
+header{
+  background-color: #f4f9fd;
+}
+
 .btn{
   padding: 8px 16px;
+  background: #fff;
+  border: 1px solid #fe775a;
+  border-radius: 5px;
+  line-height: 30px;
+  color: #fe775a;
+}
+
+.big_btn{
+  padding: 14px 28px;
   background: #fff;
   border: 1px solid #fe775a;
   border-radius: 5px;
@@ -33,7 +46,7 @@ hr{
   color: #fff;
 }
 
-#container {
+.container {
   width: 1200px;
   margin: 0 auto;
 }
@@ -46,29 +59,30 @@ hr{
 
 .navbar_top{
   background: #f4f9fd;
-  padding: 40px;
+  padding: 40px 0px;;
 }
 
 .navbar_down{
   background: #ffffff;
-  padding: 30px;
+  padding: 40px 0px;
 }
 
-.main-header{
-  background: #fff2ef;
-  padding: 350px;
-}
 
-.block{
-  background: #afebe4;
-  padding: 30px;
+.main-jumbotron{
+  position: relative;
+  background-image: url('../img/jumbotron.png');
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
 }
 
 .btn_nav_right, .span_nav_left,
-.header_logo, .header_nav_down {
+.header_logo, .header_nav_down,
+.corp_box_l, .text_box{
   float:left;
 }
-
 
 .ul_btn_nav, .ul_navbar{
   list-style: none;
@@ -78,4 +92,86 @@ hr{
 .ul_btn_nav li, .ul_navbar li{
   display: inline-block;
   padding: 0 10px;
+}
+
+.ul_btn_nav li:first-child{
+  color: #05a8c0;
+}
+
+
+.header_title h1{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+.header_title p{
+  font-size: 110%;
+  padding-bottom: 30px;
+}
+
+.sub_title_btn{
+  padding-top: 30px;
+  font-size: 80%;
+}
+
+#structure{
+  background-color: #f4f9fd;
+}
+
+.corp{
+  max-width: 1080px;
+  text-align: center;
+}
+
+.corp img{
+  height: 230px;
+  padding: 40px 0px 0px 0px;
+}
+
+.corp h2{
+  font-size: 210%;
+  padding-bottom: 20px;
+}
+
+.corp p {
+  font-size: 120%;
+  padding-bottom: 30px;
+}
+
+.box_large{
+  transition: box-shadow .3s;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow:  0 0 11px rgba(33,33,33,.2);
+  padding-left: 50px;
+}
+
+.box_large:hover{
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .box_smal{
+  background: #fff;
+  float: left;
+  width: calc(100% / 3);
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.corp_box_l{
+  padding-left: 40px;
+}
+
+.corp_box_l img{
+  height: 150px;
+}
+
+.text_box_l h4{
+  font-size: 150%;
+  padding: 50px 50px 20px 50px;
+}
+
+.text_box_l p{
+  font-size: 110%;
+  padding: 0px 0px 20px 50px;
 }
