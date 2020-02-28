@@ -367,7 +367,6 @@ font-size: 18px;
   background: linear-gradient(90deg, rgba(0,164,189,1) 0%, rgba(0,178,174,1) 100%);
   margin-top: 50px;
   color: #fff;
-  height: 550px;
   font-weight: bold;
 }
 .multibox_corp{
@@ -413,7 +412,34 @@ font-size: 18px;
 }
 
 /* END PAGE */
-
 .col_1{
+  padding-top: 50px;
+  margin: 10px;
 
+}
+
+.col_2{
+  padding-top: 20px;
+
+}
+
+.col_1 img , .col_2 img{
+    margin: 10px;
+      vertical-align: middle;
+}
+
+
+#text_end_page{
+  font-weight: bold;
+  float: left;
+  padding: 50px;
+
+}
+
+#text_end_page h2{
+  font-size: 40px;
+}
+
+#text_end_page p{
+  width: 220px
 }
