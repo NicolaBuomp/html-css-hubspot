@@ -256,7 +256,7 @@ header{
   padding: 30px 0;
 }
 
-.h_box_part2h3{
+.h_box_part2 h3{
 color:#33475B;
 font-size: 25px;
 padding: 10px 0;
@@ -335,7 +335,7 @@ font-size: 18px;
   color: #33475B;
   font-weight: bold;
   padding-bottom: 60px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #32495b;
   margin-bottom: 30px;
 }
 .box h4{
@@ -358,4 +358,62 @@ font-size: 18px;
 .box .btn_orange{
   color: white;
   padding: 20px 35px;
+}
+
+/* multibox */
+
+#multibox{
+  background: rgb(0,164,189);
+  background: linear-gradient(90deg, rgba(0,164,189,1) 0%, rgba(0,178,174,1) 100%);
+  margin-top: 50px;
+  color: #fff;
+  height: 550px;
+  font-weight: bold;
+}
+.multibox_corp{
+  text-align: center;
+}
+
+.multibox_corp h2{
+  font-size: 32px;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.multibox_corp p{
+  font-weight: bold;
+  font-size: 90%;
+  padding-bottom: 40px;
+}
+
+.multibox_1, .multibox_2, .multibox_3{
+  padding: 30px;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  text-align: center;
+}
+
+
+.multibox_4{
+  text-align: center;
+  padding: 30px;
+  border-bottom: 2px solid;
+}
+
+.multibox_5, .multibox_6, .multibox_7{
+  padding: 30px;
+  border-right: 2px solid;
+  text-align: center;
+}
+
+
+.multibox_8{
+  text-align: center;
+  padding: 30px;
+}
+
+/* END PAGE */
+
+.col_1{
+
 }
