@@ -9,7 +9,6 @@
 body{
   font-family: 'Open Sans' ;
   font-size: 16px;
-  height: 6000px;
   background-color: #F5F8FA;
   color: #32495b;
 }
@@ -56,6 +55,10 @@ header{
 .li_style li{
   list-style: none;
   display: inline-block;
+}
+
+.li_style_footer{
+  list-style: none;
 }
 
 .btn {
@@ -442,4 +445,10 @@ font-size: 18px;
 
 #text_end_page p{
   width: 220px
+}
+
+footer{
+  width: 100%;
+  background-color: #33475B;
+  color: #667788;
 }
