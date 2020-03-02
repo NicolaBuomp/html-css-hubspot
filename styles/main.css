@@ -446,25 +446,45 @@ font-size: 18px;
   width: 220px
 }
 
-/* .background_endpage{
-  background-image: url('../img/woman.webp');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100%;
-  height: 400px;
-} */
+#end_page_two{
+  padding-top: 50px;
+}
 
 .corp_endpage{
+  padding-top: 50px;
 }
+
+
+.corp_endpage_img{
+  float: right;
+}
+
+
 /* footer */
 
 footer{
   width: 100%;
   background-color: #33475B;
-  color: #667788;
+  color: #fff;
 }
 
 
-.footer_col{
+.footer_row{
+  padding: 10px 40px;
+}
 
+.footer_row h3 {
+  padding-bottom: 20px;
+}
+
+.footer_row li{
+  margin-top: 15px;
+}
+
+.footer_row i {
+  margin-right:5px;
+}
+
+.languages{
+  text-align: center;
 }
