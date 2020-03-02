@@ -376,9 +376,7 @@ font-size: 18px;
   margin-top: 50px;
   color: #fff;
   font-weight: bold;
-}
-.multibox_corp{
-  text-align: center;
+  height: 600px;
 }
 
 .multibox_corp h2{
@@ -388,7 +386,6 @@ font-size: 18px;
 }
 
 .multibox_corp p{
-  font-weight: bold;
   font-size: 90%;
   padding-bottom: 40px;
 }
@@ -419,9 +416,13 @@ font-size: 18px;
   padding: 30px;
 }
 
+.multibox img{
+  padding: 10px;
+}
+
 /* END PAGE */
 .col_1{
-  padding-top: 50px;
+  padding-top: 40px;
   margin: 10px;
 }
 
