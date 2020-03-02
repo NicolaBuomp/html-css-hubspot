@@ -91,6 +91,11 @@ header{
 .color_icon i{
   color: #fe775a;
 }
+
+.multibox{
+  width: 300px;
+  height: 150px;
+}
 /* ------------------------------------- */
 
 /* HEADER */
@@ -463,9 +468,8 @@ font-size: 18px;
 /* footer */
 
 footer{
-  width: 100%;
   background-color: #33475B;
-  color: #fff;
+  color: #CBD6E2;
 }
 
 
@@ -475,6 +479,7 @@ footer{
 
 .footer_row h3 {
   padding-bottom: 20px;
+  color: #fff;
 }
 
 .footer_row li{
@@ -485,6 +490,35 @@ footer{
   margin-right:5px;
 }
 
+.btn_footer{
+  background-color: #CBD6E2;
+  color: #33475B;
+  border: 3px solid;
+  border-radius: 7px;
+  padding: 8px;
+}
+
 .languages{
   text-align: center;
+  margin-top: 60px;
+}
+
+.languages a{
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.languages hr{
+  margin: 25px 0px;
+}
+
+.end_footer_p1 p{
+  color: #fff;
+  padding-bottom:30px;
+}
+
+.end_footer_p2 a{
+  color: #CBD6E2;
+  float: right;
+  padding-left: 20px;
 }
